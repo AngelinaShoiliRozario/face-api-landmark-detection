@@ -108,9 +108,9 @@ video.addEventListener("play", () => {
     // canvas.style.msTransform = "scaleX(-1)";
 
 
-    // faceapi.draw.drawDetections(canvas, resizedWindow);
-    // faceapi.draw.drawFaceLandmarks(canvas, resizedWindow);
-    // faceapi.draw.drawFaceExpressions(canvas, resizedWindow);
+    faceapi.draw.drawDetections(canvas, resizedWindow);
+    faceapi.draw.drawFaceLandmarks(canvas, resizedWindow);
+    faceapi.draw.drawFaceExpressions(canvas, resizedWindow);
 
     resizedWindow.forEach((detection) => {
       const box = detection.detection.box;

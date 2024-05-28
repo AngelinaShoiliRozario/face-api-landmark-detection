@@ -1,0 +1,8 @@
+{ 
+    
+    "liveServer.settings.https": {
+    "enable": true, //set it true to enable the feature.
+    "cert": "C:/Users/ztrio/Downloads/face_api/face-api-landmark-detection/openssl/localhost.pen", //full path
+    "key": "C:/Users/ztrio/Downloads/face_api/face-api-landmark-detection/openssl/localhost.key", //full path
+    "passphrase": "shoili2000"
+}} 
